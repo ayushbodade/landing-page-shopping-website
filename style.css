@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+header {
+    position:sticky;
+    top: 0;
+    background-color:white;
+    padding: 0.2rem;
+}
+
+.logo {
+    width: 60px;
+    margin-left: 6rem;
+}
+
+.logo img {
+    width: 100%;
+}
+
+nav {
+    margin: 1rem;
+    margin-top: 2rem;
+}
+
+.left ul {
+    padding: 0 20px;
+}
+
+.left ul li {
+    padding: 0 20px;
+}
+
+.search {
+    padding: 12px 0;
+    padding-right: 28rem;
+    padding-left: 1rem;
+    text-align: left;
+}
+
+.user-icons {
+    
+    /* padding-left: 13rem; */
+    margin-left:  100px;;
+    justify-content:flex-end;
+}
+
+.user-icons div {
+    margin-left: 1rem;
+}
+
+.section1 {
+    background-color: rgb(236, 234, 234);
+    height: 122vw;
+}
+
+.section1 img {
+    width: 96vw;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    padding: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+.footer a {
+    color: #0077be;
+    text-decoration: none;
+}
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.footer-links a {
+    margin: 5px 10px;
+}
+.footer-social {
+    margin-top: 20px;
+}
+.footer-social a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #0077be;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(36, 40, 41);
+  }
+}
