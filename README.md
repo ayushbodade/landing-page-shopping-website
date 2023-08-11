@@ -1,2 +1,2 @@
-# shopping-website
+# landing-page-shopping-website
 A basic landing page of a shopping site.
